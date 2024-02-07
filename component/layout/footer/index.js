@@ -1,43 +1,48 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
   return (
-    <body>
+<body>
     <div id="footer">
       
 			<div>
-				<ul class="navigation">
-					<li class="active">
-						<a href="index.html">Home</a>
+				<ul className="navigation">
+					<li className="active">
+						<Link href="">Home</Link>
 					</li>
 					<li>
-						<a href="about.html">About</a>
+						<Link href="">About</Link>
 					</li>
 					<li>
-						<a href="rooms.html">Rooms</a>
+						<Link href="">Rooms</Link>
 					</li>
 					<li>
-						<a href="dives.html">Dive Site</a>
+						<Link href="">Dive Site</Link>
 					</li>
 					<li>
-						<a href="foods.html">Food</a>
+						<Link href="">Food</Link>
 					</li>
 					<li>
-						<a href="news.html">News</a>
+						<Link href="">News</Link>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<Link href="">Contact</Link>
 					</li>
 				</ul>
 				<div id="connect">
-					<a href="http://pinterest.com/fwtemplates/" target="_blank" class="pinterest"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> <a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> <a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
+					<Link href="http://pinterest.com/fwtemplates/" target="_blank" className="pinterest"></Link>
+					<Link href="http://freewebsitetemplates.com/go/facebook/" target="_blank" className="facebook"></Link> 
+					<Link href="http://freewebsitetemplates.com/go/twitter/" target="_blank" className="twitter"></Link>
+					<Link href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" className="googleplus"></Link>
 				</div>
 			</div>
 			<p>
 				© 2023 by BHACCASYONIZTAS BEACH RESORT. All Rights Reserved
 			</p>
 		</div>
-        </body>
+		</body>
+		
   )
 }
 

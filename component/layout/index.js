@@ -5,9 +5,11 @@ import Footer from './footer';
 function LayoutPage({children}) {
   return (
     <>
+    
     <Navbar/>
     {children}
     <Footer/>
+    
     </>
 
   )

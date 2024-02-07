@@ -24,19 +24,24 @@ function Navbar() {
 							<Link href="/about">About</Link>
 						</li>
 						<li>
-							<a href="rooms.html">Rooms</a>
+							{/* <a href="rooms.html">Rooms</a> */}
+							<Link href="/rooms">ROOMS</Link>
 						</li>
 						<li>
-							<a href="dives.html">Dive Site</a>
+							{/* <a href="dives.html">Dive Site</a> */}
+							<Link href="/about">DIVE SITE</Link>
 						</li>
 						<li>
-							<a href="foods.html">Food</a>
+							{/* <a href="foods.html">Food</a> */}
+							<Link href="/about">FOOD</Link>
 						</li>
 						<li>
-							<a href="news.html">News</a>
+							{/* <a href="news.html">News</a> */}
+							<Link href="/about">NEWS</Link>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							{/* <a href="contact.html">Contact</a> */}
+							<Link href="/about">CONTACT</Link>
 						</li>
 					</ul>
 				</div>
@@ -44,6 +49,7 @@ function Navbar() {
             </div>
             </div>
 			</body>
+			
 			
   )
 }

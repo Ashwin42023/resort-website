@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function MiddlePage() {
   return(
-    <body>
+	<body>
+    
     <div id="contents">
 				<div id="adbox">
 					<Image width={852} height={450} src="/assets/images/sea-sound.jpg" alt="Img"/>
@@ -13,20 +15,20 @@ function MiddlePage() {
 					</p>
 				</div>
 				<div id="main">
-					<div class="box">
+					<div className="box">
 						<div>
 							<div>
 								<h3>Latest Blog</h3>
 								<ul>
 									<li>
-										<h4><a href="news.html">2023 Bikini Contest Winners</a></h4>
+										<h4><Link href="news.html">2023 Bikini Contest Winners</Link></h4>
 										<span>April 02, 2023</span>
 										<p>
 											Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet...
 										</p>
 									</li>
 									<li>
-										<h4><a href="news.html">Top 10 Diving Spots</a></h4>
+										<h4><Link href="news.html">Top 10 Diving Spots</Link></h4>
 										<span>May 29, 2023</span>
 										<p>
 											Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros...
@@ -36,7 +38,7 @@ function MiddlePage() {
 							</div>
 						</div>
 					</div>
-					<div id="testimonials" class="box">
+					<div id="testimonials" className="box">
 						<div>
 							<div>
 								<h3>Testimonials</h3>
@@ -48,18 +50,19 @@ function MiddlePage() {
 					</div>
 				</div>
 				<div id="sidebar">
-					<div class="section">
-						<a href="rooms.html"><Image width={285} height={150} src="/assets/images/rooms.png" alt="Img"/></a>
+					<div className="section">
+						<Link href="rooms.html"><Image width={285} height={150} src="/assets/images/rooms.png" alt="Img"/></Link>
 					</div>
-					<div class="section">
-						<a href="dives.html"><Image width={285} height={150} src="/assets/images/dive-site.png" alt="Img"/></a>
+					<div className="section">
+						<Link href="dives.html"><Image width={285} height={150} src="/assets/images/dive-site.png" alt="Img"/></Link>
 					</div>
-					<div class="section">
-						<a href="foods.html"><Image width={285} height={150} src="/assets/images/food.png" alt="Img"/></a>
+					<div className="section">
+						<Link href="foods.html"><Image width={285} height={150} src="/assets/images/food.png" alt="Img"/></Link>
 					</div>
 				</div>
 			</div>
-      </body>
+			</body>
+      
   )
 }
 
