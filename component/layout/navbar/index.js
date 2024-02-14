@@ -13,6 +13,13 @@ function Navbar() {
 				<div id="logo">
 					<a href="index.html"><Image src="/assets/images/logo.png" alt="LOGO" height="112" width="118"/></a>
 				</div>
+				<div className='auth'>
+				    <div id='auth'>
+				        <Link className='ash' href="/login">LOGIN</Link>
+				        <Link className='ashwin' href="/signup">SIGNUP</Link>
+                    </div>
+				</div>
+
 				<div id="navigation">
 					<ul>
 						<li className="selected">
@@ -43,6 +50,7 @@ function Navbar() {
 							{/* <a href="contact.html">Contact</a> */}
 							<Link href="/about">CONTACT</Link>
 						</li>
+						
 					</ul>
 				</div>
 			</div>

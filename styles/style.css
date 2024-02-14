@@ -545,3 +545,24 @@ hr {
 #connect a.googleplus:hover {
 	background-position: 0 -197px;
 }
+.ash{
+	text-decoration: none;
+	margin-left: 595px;
+	padding-right: 10px;
+	background-color: #2c9688;
+	color: white;
+	font-size: 20px;
+	
+}
+.ashwin{
+	text-decoration: none;
+	background-color: #2c9688;
+	color: white;
+	font-size: 20px;
+}
+.ash:hover{
+	color: black;
+}
+.ashwin:hover{
+	color: black;
+}
