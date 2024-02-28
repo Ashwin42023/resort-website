@@ -3,7 +3,6 @@ import React from 'react'
 
 function Footer() {
   return (
-<body>
     <div id="footer">
       
 			<div>
@@ -41,7 +40,6 @@ function Footer() {
 				© 2023 by BHACCASYONIZTAS BEACH RESORT. All Rights Reserved
 			</p>
 		</div>
-		</body>
 		
   )
 }

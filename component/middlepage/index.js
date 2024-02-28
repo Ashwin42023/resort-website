@@ -4,7 +4,7 @@ import React from 'react'
 
 function MiddlePage() {
   return(
-	<body>
+	
     
     <div id="contents">
 				<div id="adbox">
@@ -61,7 +61,7 @@ function MiddlePage() {
 					</div>
 				</div>
 			</div>
-			</body>
+			
       
   )
 }

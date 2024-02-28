@@ -6,7 +6,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-	<body>
+	
     <div>
 		<div id="page">
 			<div id="header">
@@ -22,7 +22,7 @@ function Navbar() {
 
 				<div id="navigation">
 					<ul>
-						<li className="selected">
+						<li>
 							{/* <a href="index.html">Home</a> */}
 							<Link href="/home">HOME</Link>
 						</li>
@@ -36,19 +36,19 @@ function Navbar() {
 						</li>
 						<li>
 							{/* <a href="dives.html">Dive Site</a> */}
-							<Link href="/about">DIVE SITE</Link>
+							<Link href="/divesite">DIVE SITE</Link>
 						</li>
 						<li>
 							{/* <a href="foods.html">Food</a> */}
-							<Link href="/about">FOOD</Link>
+							<Link href="/food">FOOD</Link>
 						</li>
 						<li>
 							{/* <a href="news.html">News</a> */}
-							<Link href="/about">NEWS</Link>
+							<Link href="/news">NEWS</Link>
 						</li>
 						<li>
 							{/* <a href="contact.html">Contact</a> */}
-							<Link href="/about">CONTACT</Link>
+							<Link href="/contact">CONTACT</Link>
 						</li>
 						
 					</ul>
@@ -56,7 +56,7 @@ function Navbar() {
 			</div>
             </div>
             </div>
-			</body>
+			
 			
 			
   )
